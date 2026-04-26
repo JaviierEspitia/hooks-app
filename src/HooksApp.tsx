@@ -2,8 +2,10 @@ import React from 'react'
 
 export const HooksApp = () => {
   return (
-    <>
-      <h1>Hola mundo</h1>
-    </>
+    <div className='bg-gradient'>
+      <h1 className="text-3xl font-bold underline">
+        Hello world!
+      </h1>
+    </div>
   )
 }
